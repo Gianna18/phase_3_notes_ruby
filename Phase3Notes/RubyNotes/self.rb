@@ -74,3 +74,5 @@ class Dog
 
 end
 
+In #initialize we use the self keyword to refer to the new object that has just been created by #new. Remember that when #new is called, it creates a new instance of the class and then calls #initialize on that new instance. So, #initialize is technically an instance method. Inside an instance method we are in what is called method scope and self will refer to whichever instance the method is being called on.
+
